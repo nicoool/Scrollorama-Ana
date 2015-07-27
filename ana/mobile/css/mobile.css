@@ -1,0 +1,273 @@
+
+/*------------------------------------
+CSS3 Stylesheet
+Site: Noonday Collection: Bukenya
+Media Specification:
+Author: Nate Cornelius | Hole in the Roof Marketing | holeintheroof.com
+
+Color Codes:
+lt gold #ebd08b
+dark gold #9f8a62
+lt gray	#eaeaea
+dark gray #3d3d3d
+lt blue #89a7b0
+------------------------------------*/
+
+/*-----------------
+	 ELEMENTS
+-----------------*/
+body {
+	background: #222 top center fixed;
+	color: #fff;
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 2.6em; line-height: 1.2; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 2em; }
+h5 { font-size: 1.8em; }
+h6 { font-size: 1.6em; }
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+	padding: .5em 1.5em;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*-----------------
+	 HEADER
+-----------------*/
+header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	height: auto;
+	background-color: rgba(0,0,0,.75);
+	width: 100%;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#main-nav p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    padding: 2px 20px 0 60px;
+    margin: 0 0;
+    font-size: 14px;
+    float: left;
+    color: #7b7b7b;
+}
+
+.menu { display: inline-block; text-align: center; }
+
+#main-nav ul li {
+	list-style: none;
+	font-size: 16px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.menu li a,
+.menu li a:visited { 
+	color: #b5b5b5;
+	padding: 4px 25px;
+	display: block;
+}
+
+.coming-soon, .coming-soon a,
+.coming-soon a:visited { 
+	color: #7b7b7b; 
+	padding: 4px 20px;
+	display: block;
+}
+.new, .new a, .new a:visited { color: #7b7b7b !important; }
+#main-nav ul li a.active,
+#main-nav ul li a.active:visited { color: #c0a65f; }
+#main-nav ul li a:hover { color: #a7c3d0; text-decoration: none; }
+
+/*-----------------
+	  CONTENT
+-----------------*/
+.slide {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.gray {color:#5b5b5b;}
+.line {margin-top:30px; margin-bottom:20px;}
+
+/*-----------------
+	  SLIDE 1
+-----------------*/
+#slide1 { background-image: url(../images/slide1.jpg); height: 520px; background-position: center left;}
+#slide1-add {background-color:#fff;}
+#slide1-add > article {max-width: 524px; padding: 35px 10px 26px;}
+
+/*-----------------
+	  SLIDE 2
+-----------------*/
+#slide2 { background-image: url(../images/slide2.jpg); height: 608px; background-position: center top;}
+#slide2 > article {padding: 135px 25px 15px;}
+#slide2 p { text-shadow: 1px 1px 12px #000; max-width: 538px; margin: 0 auto;}
+
+/*-----------------
+	  SLIDE 3
+-----------------*/
+#slide3 { background-image: url(../images/slide3.jpg); min-height: 456px; background-position: bottom left;}
+#slide3-add {background-color: #fff;}
+#slide3-add p {max-width: 463px; margin: 15px auto;}
+
+/*-----------------
+	  SLIDE 4
+-----------------*/
+#slide4 { background-image: url(../images/slide4.jpg); min-height: 500px; background-position: center center;}
+#slide4 > article {padding-top:120px; padding-bottom:120px; max-width: 560px;}
+#slide4 > article h5 {margin-bottom:15px;line-height: 34px;}
+
+/*-----------------
+	  SLIDE 5
+-----------------*/
+#slide5 { background-image: url(../images/slide5.jpg); min-height: 500px;}
+
+/*-----------------
+	  SLIDE 6
+-----------------*/
+#slide6 { background-color: #e1c86e;}
+#slide6 > article {padding-top: 50px; padding-bottom: 50px;}
+#slide6 > article h2{ padding-top:20px; color: #4d4d4d;}
+#slide6 > article p{ font-size:19px; max-width: 533px; margin:0 auto;}
+
+/*-----------------
+	  SLIDE 7
+-----------------*/
+#slide7 {background-image: url(../images/slide7.jpg); height: 445px;}
+#slide7 p {padding-right: 20px; padding-top:24%;max-width: 394px;float: right;text-shadow: 1px 1px 12px #000;}
+
+/*-----------------
+	  SLIDE 8
+-----------------*/
+#slide8 {background-image: url(../images/slide8.jpg); height: 445px;}
+#slide8 p {padding-right: 20px; padding-top: 22%; text-shadow: 1px 1px 12px #000;max-width: 325px;float: right;}
+
+/*-----------------
+	  SLIDE 9
+-----------------*/
+#slide9 { background-image: url(../images/slide9.jpg); height: 330px; background-position: center center;}
+#slide9-add {background-color: #fff; padding: 17px 10px;}
+#slide9-add span {color: #e1c86e;}
+#slide9-add h6 {max-width: 719px;margin: 0 auto;}
+#slide9-add p {max-width: 554px;margin: 0 auto;}
+
+/*-----------------
+	  SLIDE 10
+-----------------*/
+#slide10 { background-image: url(../images/slide10.jpg); min-height: 520px; background-position: center right;}
+#slide10 > article {padding-top:40%; text-shadow: 1px 1px 12px #000;}
+#slide10 > article p {padding: 5px 10% 25px; max-width: 458px;margin: 0 auto;}
+
+/*-----------------
+	  SLIDE 11
+-----------------*/
+#slide11 { background-image: url(../images/slide11.jpg); height: 808px; background-position:30% center; }
+
+/*-----------------
+	  SLIDE 12
+-----------------*/
+#slide12 { background-image: url(../images/slide12.jpg); height: 600px; background-position:center center; }
+#slide12 > article {max-width: 526px;padding-top: 346px;text-shadow: 1px 1px 8px #000, 1px 1px 35px #000;}
+#slide12-add {background-color:#fff;}
+#slide12-add >article {max-width: 545px;}
+#slide12-add p {padding: 10px 10%;}
+
+/*-----------------
+	  SLIDE 13
+-----------------*/
+#slide13 { background-image: url(../images/slide13.jpg); height: 520px; background-position:center right; }
+#slide13-add {background-color: #fff;}
+#slide13-add span {color: #e1c86e;}
+#slide13-add p {max-width: 482px; margin: 15px auto;}
+#slide13-add h5 {max-width: 579px; margin: 15px auto; font-weight: bolder;}
+
+/*-----------------
+	  SLIDE 14
+-----------------*/
+#slide14 { background-color: #ffffff; height: auto; }
+#slide14 > article > img { width:100% !important; height:auto; margin:40px 5px; }
+
+/*-----------------
+	  SLIDE 15
+-----------------*/
+#slide15 { background-color: #4b4b4b; height: auto; }
+#slide15 > article { padding: 40px; }
+#slide15 > article > img { padding: 30px 0 30px; }
+#slide15 > article a, #slide15 > article span { text-transform: none; }
+
+/*-----------------
+	  SLIDE 16
+-----------------*/
+#slide16 { background-color: #e9e9e9; height: auto; }
+#slide16 > article { padding: 60px; }
+.social { width: 370px; margin: 20px auto; }
+/*.fb_iframe_widget,
+#twitter-widget-0 {
+	display: block !important;
+	float: left;
+	width: 200px;
+}*/
+
+/*-----------------
+	   MISC
+-----------------*/
+
+.cl {
+	clear: both;
+	display: block;
+	height: 0;
+	font-size: 10px;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.emphasis {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-family: 'Open Sans Condensed';
+	text-align: center;
+	font-weight: 700;
+}
+
+.txt-right { text-align: right; }
+.txt-left { text-align: left; }
+.txt-center { text-align: center; }
+.img-left { float: left; }
+
+/*-----------------
+	Media Queries
+-----------------*/
+
+@media only screen and (max-width: 959px) {
+	
+}
